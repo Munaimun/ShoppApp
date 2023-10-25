@@ -1,0 +1,40 @@
+.main{
+  display: flex;
+  text-align: center;
+  justify-content: center; /* Center items horizontally */
+  align-items: center;
+}
+.card{
+  text-align: center;
+  justify-content: center; /* Center items horizontally */
+  align-items: center;
+  width: 50%;
+  border: 1px solid black;
+  background-color:floralwhite;
+}
+.product-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center items horizontally */
+  align-items: center;
+  background-color: black;
+}
+
+.product-item_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center text within the container */
+}
+
+.btn{
+  width: 7rem;
+  height: 3rem;
+  border-radius: 10px;
+  color: rgb(249 250 251);
+  font-weight: 700;
+  background-color: rgb(82 82 82);
+}
+.btn:hover{
+  background-color: gray;
+}

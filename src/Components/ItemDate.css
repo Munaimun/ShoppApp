@@ -1,5 +1,11 @@
-.mfg-date{
-    text-align: center;
-    background-color: cadetblue
-    ;
-} 
+.mfg-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .mfg-date span {
+    margin: 0 4px;
+  }

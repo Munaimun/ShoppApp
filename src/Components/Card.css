@@ -1,0 +1,19 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional styling if needed */
+  .card.products {
+    background-color: #f0f0f0;
+  }
+  
+  .card.product-item {
+    background-color: #ffffff;
+  }
+  
+  /* ... add more styles as needed */
+  
